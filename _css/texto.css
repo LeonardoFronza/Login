@@ -1,0 +1,17 @@
+body {
+    margin:0;
+}
+main {
+    position: fixed;
+    left:0;
+    top:60px;
+    width: 100%;
+}
+main section#text {
+    display: block;
+    padding:180px;
+    text-align: center; 
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    background-color:#b3b3ae;
+}

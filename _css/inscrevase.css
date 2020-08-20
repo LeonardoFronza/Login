@@ -1,0 +1,63 @@
+body {
+    margin:0;
+   
+}
+header{ 
+    position: fixed; 
+    left: 0;
+    top:0;
+    width: 1000%;
+    margin:0;
+
+ }
+nav{ 
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color:rgba(53,51,51,0.7) ;
+}
+
+nav ul#naveg {
+    text-align: right;
+    margin-right: 30px;
+    right: 50px;
+    
+}
+
+nav ul#naveg li {
+    list-style-type:none;
+    display: inline;
+} 
+
+nav ul#naveg li a {
+    padding:18px 5px;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    margin-right: -3px;
+    font-size: 130%;
+
+}
+
+nav ul#naveg li a:hover {
+    background-color: silver; 
+
+}
+
+h3 {
+    padding: 9% 40px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px rgba(29, 28, 28, 0.3)
+    
+}
+
+
+form {
+    position: absolute;
+    top: 20%;
+    right: 26%;
+    padding: 5%;
+    width: 45%;
+}

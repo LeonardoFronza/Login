@@ -1,0 +1,46 @@
+body {
+    margin:0;
+}
+header{ 
+    position: fixed; 
+    left: 0;
+    top:0;
+    width: 100%;
+    margin:0;
+ }
+
+nav{ 
+    position: fixed;
+    height: 15%;
+    width: 100%;
+    background-color:rgba(53,51,51,0.7) ;
+}
+
+nav ul#naveg {
+    text-align: right;
+    margin-right: 30px;
+    right: 50px;
+    
+}
+
+nav ul#naveg li {
+    list-style-type:none;
+    display: inline;
+} 
+
+nav ul#naveg li a {
+    padding:10px 5px;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    margin-right: -3px;
+    font-size: 130%;
+
+}
+
+nav ul#naveg li a:hover {
+    background-color: #b3b3ae; 
+
+}
+
