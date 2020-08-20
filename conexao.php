@@ -7,10 +7,10 @@ class db{
     private $database   = 'cadastro';
 
     public function conecta_mysql(){
-        $con = mysqli_connect($this->host,$this->usuario,$this->senha,$this->database);
+        $rede = mysqli_connect($this->host,$this->usuario,$this->senha,$this->database);
     
-        return $con;
+        return $rede;
     }
 }
 
-?>
+?>  
